@@ -1,0 +1,70 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "bdf91e27-a4df-4a58-a623-b17047837732",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Fri, 16 May 2025 12:43:22 GMT",
+            "content-type": "application/json",
+            "content-length": "4115",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "bdf91e27-a4df-4a58-a623-b17047837732"
+        },
+        "RetryAttempts": 0
+    },
+    "retrievalResults": [
+        {
+            "content": {
+                "text": "# Alicia Torrence\r ## Biography Alicia Torrence is a legendary basketball player known for her leadership and exceptional shooting accuracy. Raised in Atlanta, Georgia, Alicia emerged as a force in women’s basketball, particularly as a skilled point guard with a knack for reading the game. Her playstyle combines finesse with strategic vision, allowing her to outmaneuver opponents and lead her team to numerous victories. Inspired by players like Diana Taurasi and Sue Bird, Alicia became a trailblazer in the sport, celebrated not only for her on-court skills but also for her mentorship of young athletes. Her journey to the top was marked by resilience, as Alicia faced numerous challenges early in her career, including overcoming a knee injury that nearly ended her playing days. Her return to the court after intense rehabilitation showed her unbreakable spirit and dedication to the sport, making her an icon for fans and fellow athletes alike. ## Key Achievements - **WNBA Championship Winner** – Led her team to three consecutive titles - **WNBA MVP** – Awarded twice, in recognition of her outstanding performance and leadership - **Olympic Gold Medalist** – As part of the U.S.",
+                "type": "TEXT"
+            },
+            "location": {
+                "s3Location": {
+                    "uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md"
+                },
+                "type": "S3"
+            },
+            "metadata": {
+                "x-amz-bedrock-kb-source-uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md",
+                "x-amz-bedrock-kb-chunk-id": "9a2f9ba9-16fd-40a2-977a-0ba054bc5055",
+                "x-amz-bedrock-kb-data-source-id": "NVCLX6PEJ7"
+            },
+            "score": 0.8491033315658569
+        },
+        {
+            "content": {
+                "text": "Known for her humility and strong work ethic, Alicia is dedicated to giving back to her community, frequently organizing basketball clinics for young girls in underserved areas. She values family above all and often attributes her success to the constant support and guidance from her parents and siblings.",
+                "type": "TEXT"
+            },
+            "location": {
+                "s3Location": {
+                    "uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md"
+                },
+                "type": "S3"
+            },
+            "metadata": {
+                "x-amz-bedrock-kb-source-uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md",
+                "x-amz-bedrock-kb-chunk-id": "2bc09708-46c0-4d9f-9678-62d0d7862917",
+                "x-amz-bedrock-kb-data-source-id": "NVCLX6PEJ7"
+            },
+            "score": 0.7996788024902344
+        },
+        {
+            "content": {
+                "text": "Her return to the court after intense rehabilitation showed her unbreakable spirit and dedication to the sport, making her an icon for fans and fellow athletes alike. ## Key Achievements - **WNBA Championship Winner** – Led her team to three consecutive titles - **WNBA MVP** – Awarded twice, in recognition of her outstanding performance and leadership - **Olympic Gold Medalist** – As part of the U.S. Women’s Basketball Team - **Sports Illustrated's Most Influential Women in Sports** – Honored for her contributions to advancing women’s basketball ## Notable Matches and Performances - **Championship Game Performance** – Scored a career-high 52 points in the final game of the WNBA Championship, cementing her legacy - **\"Back on the Court\" Comeback Match** – Her first game post-injury, where she scored 32 points and led her team to victory, was a powerful demonstration of her resilience - **Olympic Quarterfinals Game** – An unforgettable 18-assist performance that showcased her skill as a playmaker and her ability to elevate her team ## Personal Background Alicia grew up in a sports-oriented family; her mother was a former college track athlete, and her father coached local basketball teams. Her parents instilled in her the importance of discipline and teamwork from an early age.",
+                "type": "TEXT"
+            },
+            "location": {
+                "s3Location": {
+                    "uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md"
+                },
+                "type": "S3"
+            },
+            "metadata": {
+                "x-amz-bedrock-kb-source-uri": "s3://sample-s3-bedrock-knowledge-bases-vinicius/athletes/Alicia Torrence.md",
+                "x-amz-bedrock-kb-chunk-id": "4d31131e-0256-427b-bb43-985b917ee0bb",
+                "x-amz-bedrock-kb-data-source-id": "NVCLX6PEJ7"
+            },
+            "score": 0.7507390379905701
+        }
+    ]
+}
