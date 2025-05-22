@@ -1,0 +1,54 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "75dc0df4-ccd3-414a-99d0-876cde1d3418",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Tue, 20 May 2025 17:25:36 GMT",
+            "content-type": "application/json",
+            "content-length": "699",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "75dc0df4-ccd3-414a-99d0-876cde1d3418"
+        },
+        "RetryAttempts": 0
+    },
+    "usage": {
+        "topicPolicyUnits": 1,
+        "contentPolicyUnits": 1,
+        "wordPolicyUnits": 1,
+        "sensitiveInformationPolicyUnits": 1,
+        "sensitiveInformationPolicyFreeUnits": 0,
+        "contextualGroundingPolicyUnits": 0,
+        "contentPolicyImageUnits": 0
+    },
+    "action": "NONE",
+    "actionReason": "No action.",
+    "outputs": [],
+    "assessments": [
+        {
+            "invocationMetrics": {
+                "guardrailProcessingLatency": 251,
+                "usage": {
+                    "topicPolicyUnits": 1,
+                    "contentPolicyUnits": 1,
+                    "wordPolicyUnits": 1,
+                    "sensitiveInformationPolicyUnits": 1,
+                    "sensitiveInformationPolicyFreeUnits": 0,
+                    "contextualGroundingPolicyUnits": 0,
+                    "contentPolicyImageUnits": 0
+                },
+                "guardrailCoverage": {
+                    "textCharacters": {
+                        "guarded": 12,
+                        "total": 12
+                    }
+                }
+            }
+        }
+    ],
+    "guardrailCoverage": {
+        "textCharacters": {
+            "guarded": 12,
+            "total": 12
+        }
+    }
+}

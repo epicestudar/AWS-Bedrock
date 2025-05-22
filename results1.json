@@ -1,0 +1,68 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "8f6a3d14-15b6-4a62-b8d2-9db096a91278",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Tue, 20 May 2025 17:25:27 GMT",
+            "content-type": "application/json",
+            "content-length": "976",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "8f6a3d14-15b6-4a62-b8d2-9db096a91278"
+        },
+        "RetryAttempts": 0
+    },
+    "usage": {
+        "topicPolicyUnits": 1,
+        "contentPolicyUnits": 1,
+        "wordPolicyUnits": 1,
+        "sensitiveInformationPolicyUnits": 1,
+        "sensitiveInformationPolicyFreeUnits": 0,
+        "contextualGroundingPolicyUnits": 0,
+        "contentPolicyImageUnits": 0
+    },
+    "action": "GUARDRAIL_INTERVENED",
+    "actionReason": "Guardrail blocked.",
+    "outputs": [
+        {
+            "text": "Sorry, I cannot answer this question.."
+        }
+    ],
+    "assessments": [
+        {
+            "topicPolicy": {
+                "topics": [
+                    {
+                        "name": "swimming",
+                        "type": "DENY",
+                        "action": "BLOCKED",
+                        "detected": true
+                    }
+                ]
+            },
+            "invocationMetrics": {
+                "guardrailProcessingLatency": 279,
+                "usage": {
+                    "topicPolicyUnits": 1,
+                    "contentPolicyUnits": 1,
+                    "wordPolicyUnits": 1,
+                    "sensitiveInformationPolicyUnits": 1,
+                    "sensitiveInformationPolicyFreeUnits": 0,
+                    "contextualGroundingPolicyUnits": 0,
+                    "contentPolicyImageUnits": 0
+                },
+                "guardrailCoverage": {
+                    "textCharacters": {
+                        "guarded": 22,
+                        "total": 22
+                    }
+                }
+            }
+        }
+    ],
+    "guardrailCoverage": {
+        "textCharacters": {
+            "guarded": 22,
+            "total": 22
+        }
+    }
+}
